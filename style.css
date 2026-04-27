@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Portculliont';
-    src: url('fonts/Portcullion.ttf');
+    src: url('../fonts/Portcullion.ttf');
 }
 
 body {
@@ -410,7 +410,7 @@ body {
 
 
 .footer-logo {
-    font-family: portcullion;
+    font-family: 'Portcullion';
     color: rgb(255, 0, 0);
     font-size: 4rem;
     text-align: left;
