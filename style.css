@@ -3,8 +3,10 @@
 }
 
 @font-face {
-    font-family: 'Portculliont';
-    src: url('../fonts/Portcullion.ttf');
+    font-family: 'Portcullion';
+    src: url('/fonts/Portcullion.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -285,7 +287,7 @@ body {
 
 .gear_img > img {
     width: 100%;
-    height: 45vh;
+    height: 100%;
     object-fit: fill;
 
 
