@@ -100,7 +100,7 @@ body {
 }
 
 .name_title {
-    font-family: portcullion;
+    font-family:'Portcullion';
     color: rgb(255, 0, 0);
     font-size: clamp(0.1rem, 14vw, 10rem);
     text-align: center;
