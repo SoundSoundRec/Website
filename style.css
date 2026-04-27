@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: Portculliont;
-    src: url(fonts/Portcullion.ttf));
+    font-family: 'Portculliont';
+    src: url('fonts/Portcullion.ttf');
 }
 
 body {
@@ -97,8 +97,6 @@ body {
     background-position: 50% 90%;
     padding-left: 5vw;
     padding-right: 5vw;
-    
-
 }
 
 .name_title {
@@ -107,7 +105,7 @@ body {
     font-size: clamp(0.1rem, 14vw, 10rem);
     text-align: center;
     white-space: nowrap;
-    max-width: 100%;
+    width: 100%;
     line-height: 1;
     padding-top: 2vh;
     white-space: nowrap;
