@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: Portculliont;
-    src: url(fonts/Portcullion.ttf);
+    src: url(/fonts/Portcullion.ttf);
 }
 
 body {
@@ -104,12 +104,13 @@ body {
 .name_title {
     font-family: portcullion;
     color: rgb(255, 0, 0);
-    font-size: clamp(1rem, 14vw, 10rem);
+    font-size: clamp(0.1rem, 14vw, 10rem);
     text-align: center;
     white-space: nowrap;
     width: 100%;
     line-height: 1;
     padding-top: 2vh;
+    white-space: nowrap;
 }
 
 .subheading {
@@ -280,11 +281,15 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.gear_img {
+    max-width: 100%;
+}
 
 .gear_img > img {
-    width: 80vw;
+    width: 100%;
     height: 45vh;
-    object-fit: cover;
+    object-fit: fill;
+
 
 }
 
