@@ -117,7 +117,8 @@ body {
     color:rgb(255, 255, 255);
     font-size: clamp(1.5rem, 2vw, 10rem);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 0;
+    line-height: 1;
+    margin: 0;
 }
 
 .discription {
@@ -126,6 +127,7 @@ body {
     font-size: clamp(1rem, 1vw, 5rem);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 300;
+    margin: ;
 }
 
 .img_banner {
@@ -206,7 +208,7 @@ body {
     height: 6vh ;
     margin-top: 1vh;
     width: auto;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     backdrop-filter: blur(10px);
     background-color: rgba(243, 243, 243, 0);
     
@@ -247,6 +249,10 @@ body {
     align-items: center;
 }
 
+.box {
+    display: ;
+}
+    
 .gear_title {
     color: rgb(255, 0, 0);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -262,12 +268,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
+
+    
 }
 
 .gear_img > img {
-    width: 80vw;
-    height: 45vh;
     object-fit: cover;
+    width: min(1000px, 95%);
+    max-inline-size: 100%;
 }
 
 .gallery-container {
@@ -384,6 +393,25 @@ body {
     height: 40px;
 }
 
+.insta-button :hover {
+    filter:opacity(50%);
+}
+
+.imdb-button {
+    background-color: transparent;
+    filter: invert(0);
+    border-style: none;
+    cursor: pointer;
+    
+}
+
+.imdb-icon {
+    height: 40px;
+}
+
+.imdb-button :hover {
+    filter:opacity(50%);
+}
 
 .footer-logo {
     font-family: 'Portcullion';
